@@ -12,9 +12,10 @@ Es una aplicación web simple construida con **Spring Boot** que gestiona solici
 - **Spring Data JPA** - Para acceder y manipular datos en la base de datos
 - **Spring Validation** - Para validar que los datos sean correctos
 - **Maven** - Herramienta para gestionar dependencias y construir el proyecto
+- **Lombok** - Herramienta para creación de métodos, cohstructores y funcionalidades básicas
 
 ### Base de datos:
-- **H2** - Base de datos en memoria para desarrollo
+- **H2** - Base de datos en memoria para desarrollo (us: sa; ps: password)
 - Usa **SQL scripts** (`schema.sql` (omitido al ser la tabla igual que la entidad) y `data.sql`) para crear tablas e insertar datos
 
 ## Funcionalidades
@@ -43,7 +44,8 @@ src/
 
 ## Donde encontrar:
 
-La aplicación estará disponible en `http://localhost:8080`
+La aplicación estará disponible en `http://localhost:8090`
+La base de datos estará disponible en http://localhost:8090/h2-console/login.do
 
 ## Endpoints
 
